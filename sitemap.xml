@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://redredredfish.github.io/2021/12/02/XSS%E5%9F%BA%E7%A1%80/</loc>
-    
-    <lastmod>2021-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://redredredfish.github.io/repository/index.html</loc>
     
     <lastmod>2021-12-02</lastmod>
@@ -30,6 +21,15 @@
   
   <url>
     <loc>https://redredredfish.github.io/tags/index.html</loc>
+    
+    <lastmod>2021-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://redredredfish.github.io/links/index.html</loc>
     
     <lastmod>2021-12-02</lastmod>
     
@@ -55,20 +55,6 @@
   </url>
 
   
-  <url>
-    <loc>https://redredredfish.github.io/tags/XSS/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>https://redredredfish.github.io/categories/web%E6%BC%8F%E6%B4%9E/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
 </urlset>
