@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>redfish的学习笔记</title>
   
-  
+  <subtitle>redfish的学习笔记</subtitle>
   <link href="https://redredredfish.github.io/atom.xml" rel="self"/>
   
   <link href="https://redredredfish.github.io/"/>
