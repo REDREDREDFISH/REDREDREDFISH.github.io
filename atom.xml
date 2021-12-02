@@ -6,7 +6,7 @@
   <link href="https://redredredfish.github.io/atom.xml" rel="self"/>
   
   <link href="https://redredredfish.github.io/"/>
-  <updated>2021-12-02T14:10:02.774Z</updated>
+  <updated>2021-12-02T14:50:02.924Z</updated>
   <id>https://redredredfish.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>XSS基础</title>
+    <link href="https://redredredfish.github.io/2021/12/02/XSS%E5%9F%BA%E7%A1%80/"/>
+    <id>https://redredredfish.github.io/2021/12/02/XSS%E5%9F%BA%E7%A1%80/</id>
+    <published>2021-12-02T14:49:00.000Z</published>
+    <updated>2021-12-02T14:50:02.924Z</updated>
+    
+    <content type="html"><![CDATA[<p>111111</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;111111&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="web漏洞" scheme="https://redredredfish.github.io/categories/web%E6%BC%8F%E6%B4%9E/"/>
+    
+    
+    <category term="XSS" scheme="https://redredredfish.github.io/tags/XSS/"/>
+    
+  </entry>
   
   <entry>
     <title>今天是个好日子</title>
