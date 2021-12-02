@@ -6,7 +6,7 @@
   <link href="https://redredredfish.github.io/atom.xml" rel="self"/>
   
   <link href="https://redredredfish.github.io/"/>
-  <updated>2021-12-02T08:06:01.047Z</updated>
+  <updated>2021-12-02T14:10:02.774Z</updated>
   <id>https://redredredfish.github.io/</id>
   
   <author>
@@ -21,8 +21,17 @@
     <link href="https://redredredfish.github.io/2021/12/02/helloworld/"/>
     <id>https://redredredfish.github.io/2021/12/02/helloworld/</id>
     <published>2021-12-02T08:05:05.000Z</published>
-    <updated>2021-12-02T08:06:01.047Z</updated>
+    <updated>2021-12-02T14:10:02.774Z</updated>
     
+    <content type="html"><![CDATA[<p>test</p><p><img src="helloworld.assets/image-20211202221000375.png" alt="image-20211202221000375"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;test&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;helloworld.assets/image-20211202221000375.png&quot; alt=&quot;image-20211202221000375&quot;&gt;&lt;/p&gt;
+</summary>
+      
     
     
     
