@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://REDREDREDFISH.github.io/2021/11/02/helloworld/</loc>
-    <lastmod>2021-12-03</lastmod>
+    <loc>https://REDREDREDFISH.github.io/2021/06/15/XSS%E5%9F%BA%E7%A1%80-%E4%B8%80/</loc>
+    <lastmod>2021-12-06</lastmod>
+  </url>
+  <url>
+    <loc>https://REDREDREDFISH.github.io/2021/07/06/Mysql%E5%86%99shell%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E5%BC%8F/</loc>
+    <lastmod>2021-12-06</lastmod>
+  </url>
+  <url>
+    <loc>https://REDREDREDFISH.github.io/2021/07/07/helloworld/</loc>
+    <lastmod>2021-12-06</lastmod>
+  </url>
+  <url>
+    <loc>https://REDREDREDFISH.github.io/2021/07/08/weblogic%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E%E7%9A%84%E5%88%9D%E7%BA%A7%E7%90%86%E8%A7%A3-%E4%B8%80/</loc>
+    <lastmod>2021-12-06</lastmod>
+  </url>
+  <url>
+    <loc>https://REDREDREDFISH.github.io/2021/07/06/shiro%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</loc>
+    <lastmod>2021-12-06</lastmod>
   </url>
 </urlset> 
