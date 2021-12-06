@@ -6,7 +6,7 @@
   <link href="https://redredredfish.github.io/atom.xml" rel="self"/>
   
   <link href="https://redredredfish.github.io/"/>
-  <updated>2021-12-06T07:19:19.216Z</updated>
+  <updated>2021-12-06T14:19:40.902Z</updated>
   <id>https://redredredfish.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>面试-默安</title>
+    <link href="https://redredredfish.github.io/2021/11/11/%E9%9D%A2%E8%AF%95-%E9%BB%98%E5%AE%89/"/>
+    <id>https://redredredfish.github.io/2021/11/11/%E9%9D%A2%E8%AF%95-%E9%BB%98%E5%AE%89/</id>
+    <published>2021-11-11T14:09:00.000Z</published>
+    <updated>2021-12-06T14:19:40.902Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="岗位：安服实习生"><a href="#岗位：安服实习生" class="headerlink" title="岗位：安服实习生"></a>岗位：安服实习生</h4><h4 id="时间：2021-10-10"><a href="#时间：2021-10-10" class="headerlink" title="时间：2021.10.10"></a>时间：2021.10.10</h4><h4 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h4><h5 id="1、自我介绍"><a href="#1、自我介绍" class="headerlink" title="1、自我介绍"></a>1、自我介绍</h5><h5 id="2、技术"><a href="#2、技术" class="headerlink" title="2、技术"></a>2、技术</h5><h6 id="web"><a href="#web" class="headerlink" title="web:"></a>web:</h6><p>渗透思路 </p><p>怎么绕过CDN </p><p>怎么找真实ip </p><p>xss类型和原理 </p><p>sql盲注用了哪些函数 </p><p>宽字节注入的原理 </p><p>怎么修复sql注入 </p><p>CSRF的原理</p><p>文件上传白名单怎么绕</p><p>文件上传后端验证怎么绕</p><p>=号被禁用怎么替代</p><p>mysql写shell的方式</p><p>shiro反序列化的原理</p><p>印象深刻的渗透经验</p><h6 id="内网"><a href="#内网" class="headerlink" title="内网"></a>内网</h6><p>详细的信息搜集 </p><p>怎么找域控 </p><p>怎么判断是域还是工作组还是别的环境 </p><p>隧道代理 </p><p>UDF提权 </p><p>端口复用端口转发 </p><p>CS免杀</p><h5 id="3、项目经历"><a href="#3、项目经历" class="headerlink" title="3、项目经历"></a>3、项目经历</h5><p>HW干了啥</p><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>当时有点紧张，web答的不够全面，内网基本不会，回过头来看其实不难，我是个没用的安服(T_T)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;岗位：安服实习生&quot;&gt;&lt;a href=&quot;#岗位：安服实习生&quot; class=&quot;headerlink&quot; title=&quot;岗位：安服实习生&quot;&gt;&lt;/a&gt;岗位：安服实习生&lt;/h4&gt;&lt;h4 id=&quot;时间：2021-10-10&quot;&gt;&lt;a href=&quot;#时间：2021-10-10&quot; c</summary>
+      
+    
+    
+    
+    <category term="面经" scheme="https://redredredfish.github.io/categories/%E9%9D%A2%E7%BB%8F/"/>
+    
+    
+    <category term="面经" scheme="https://redredredfish.github.io/tags/%E9%9D%A2%E7%BB%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>weblogic反序列化漏洞的初级理解(二)</title>
