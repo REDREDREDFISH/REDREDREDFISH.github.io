@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://REDREDREDFISH.github.io/2021/06/21/%E5%A2%A8%E8%80%85-SQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E6%B5%8B%E8%AF%95-%E6%8A%A5%E9%94%99%E7%9B%B2%E6%B3%A8-%E9%A2%98%E8%A7%A3/</loc>
+    <lastmod>2021-12-08</lastmod>
+  </url>
+  <url>
+    <loc>https://REDREDREDFISH.github.io/2021/06/20/%E5%A2%A8%E8%80%85-SQL%E6%89%8B%E5%B7%A5%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E6%B5%8B%E8%AF%95%EF%BC%88MySQL%E6%95%B0%E6%8D%AE%E5%BA%93-%E5%AD%97%E7%AC%A6%E5%9E%8B%EF%BC%89%E9%A2%98%E8%A7%A3/</loc>
+    <lastmod>2021-12-08</lastmod>
+  </url>
+  <url>
+    <loc>https://REDREDREDFISH.github.io/2021/07/06/Mysql%E5%86%99shell%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E5%BC%8F/</loc>
+    <lastmod>2021-12-08</lastmod>
+  </url>
+  <url>
+    <loc>https://REDREDREDFISH.github.io/2021/06/20/sql%E6%B3%A8%E5%85%A5%E5%9F%BA%E7%A1%80-mysql%E8%81%94%E5%90%88%E6%B3%A8%E5%85%A5/</loc>
+    <lastmod>2021-12-08</lastmod>
+  </url>
+  <url>
     <loc>https://REDREDREDFISH.github.io/2021/06/16/XSS%E5%9F%BA%E7%A1%80-%E4%BA%8C/</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
@@ -14,10 +30,6 @@
   </url>
   <url>
     <loc>https://REDREDREDFISH.github.io/2021/06/15/XSS%E5%9F%BA%E7%A1%80-%E4%B8%80/</loc>
-    <lastmod>2021-12-06</lastmod>
-  </url>
-  <url>
-    <loc>https://REDREDREDFISH.github.io/2021/07/06/Mysql%E5%86%99shell%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E5%BC%8F/</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
